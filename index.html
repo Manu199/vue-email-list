@@ -12,7 +12,9 @@
 <body>
     <div id="app" class="container my-5">
         <h1>{{ titolo }}</h1>
-        <h3>{{ risultatoChiamataAxios }}</h3>
+        <ul>
+            <li v-for="email in emails">{{ email }}</li>
+        </ul>
     </div>
 
     <script src="script.js"></script>
